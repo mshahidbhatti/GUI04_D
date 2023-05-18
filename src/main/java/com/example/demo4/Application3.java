@@ -22,7 +22,9 @@ public class Application3 extends Application {
         Button addSystemsBtn = new Button("Add Systems");
         Button exitBtn = new Button("Exit");
 
-        addCampusBtn.setOnAction(e -> setScene(createScene("Add Campus")));
+        addCampusBtn.setOnAction(e ->
+                setScene(createScene("Add Campus"))
+        );
         addDeptBtn.setOnAction(e -> setScene(createScene("Add Department")));
         addLabsBtn.setOnAction(e -> setScene(createScene("Add Labs")));
         addSystemsBtn.setOnAction(e -> setScene(createScene("Add Systems")));
